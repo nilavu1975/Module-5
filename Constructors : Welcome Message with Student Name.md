@@ -13,7 +13,18 @@ To write a Python program that creates a **Student** class with a **default cons
 ## 🧾 Program
 
 Add code here
-
+```
+class Student:
+    def __init__(self,name):
+        self.name=name
+    def show(self):
+        print("Hello",self.name)
+name=input()
+obj = Student(name)
+obj.show()
+```
 ## Output
+<img width="628" height="211" alt="image" src="https://github.com/user-attachments/assets/5a33a09a-6f69-4d23-b533-76b55b3b9555" />
 
 ## Result
+Thus the above python program was executed successfully.
