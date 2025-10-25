@@ -25,5 +25,33 @@ To write a Python program to calculate **Add, Sub & Division** using **Multiple 
 
 ## 💻 Program 
 Add code here
+```
+class Calculation1:
+    def Summation(self, a, b):
+        return a + b
+
+class Calculation2:
+    def multi(self, a, b):
+        return a * b
+
+class Derived(Calculation1, Calculation2):
+    def Division(self, a, b):
+        if b != 0:
+            return a / b
+        else:
+            return "Division by zero is not allowed"
+num1 = float(input())
+num2 = float(input())
+obj = Derived()
+sum_result = obj.Summation(num1, num2)
+mul_result = obj.multi(num1, num2)
+div_result = obj.Division(num1, num2)
+print(sum_result)
+print(mul_result)
+print(div_result)
+```
 ## Output Example
 
+<img width="688" height="431" alt="91" src="https://github.com/user-attachments/assets/6c97fe51-ebd1-42ec-8d46-0fa45dacddcd" />
+## Result 
+Thus the above program was executed successfully.
